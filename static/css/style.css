@@ -241,3 +241,15 @@ body {
     opacity: 1 !important;
     transform: none !important;
 }
+
+/* === Soporte para el contenedor de la imagen del prototipo (no cambia estética) === */
+.solution__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* (Por si no estaban ya) Menú móvil y fallback no-JS */
+.nav__menu.active { right: 0; }
+.no-js .section { opacity: 1 !important; transform: none !important; }
